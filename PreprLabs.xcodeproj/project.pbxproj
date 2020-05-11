@@ -15,6 +15,11 @@
 		DC272CA9246854DC00F70481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC272CA8246854DC00F70481 /* Assets.xcassets */; };
 		DC272CAC246854DC00F70481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC272CAA246854DC00F70481 /* LaunchScreen.storyboard */; };
 		DC272CB7246854DC00F70481 /* PreprLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC272CB6246854DC00F70481 /* PreprLabsTests.swift */; };
+		DC272CE12468671200F70481 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC272CE02468671100F70481 /* GoogleService-Info.plist */; };
+		DC6EDDF42468817B00850DF0 /* LabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EDDF32468817B00850DF0 /* LabTableViewCell.swift */; };
+		DC6EDDF624688D9200850DF0 /* LabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EDDF524688D9200850DF0 /* LabTableViewController.swift */; };
+		DC6EDDFA24688F1C00850DF0 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EDDF924688F1C00850DF0 /* Lab.swift */; };
+		DC6EDDFC2468A0D700850DF0 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EDDFB2468A0D700850DF0 /* LabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		DC272CB2246854DC00F70481 /* PreprLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreprLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC272CB6246854DC00F70481 /* PreprLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreprLabsTests.swift; sourceTree = "<group>"; };
 		DC272CB8246854DC00F70481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC272CE02468671100F70481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC6EDDF32468817B00850DF0 /* LabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTableViewCell.swift; sourceTree = "<group>"; };
+		DC6EDDF524688D9200850DF0 /* LabTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTableViewController.swift; sourceTree = "<group>"; };
+		DC6EDDF924688F1C00850DF0 /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
+		DC6EDDFB2468A0D700850DF0 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +91,19 @@
 		DC272C9C246854D600F70481 /* PreprLabs */ = {
 			isa = PBXGroup;
 			children = (
+				DC272CE02468671100F70481 /* GoogleService-Info.plist */,
 				DC272C9D246854D600F70481 /* AppDelegate.swift */,
 				DC272C9F246854D600F70481 /* SceneDelegate.swift */,
 				DC272CA1246854D600F70481 /* FirstViewController.swift */,
 				DC272CA3246854D600F70481 /* SecondViewController.swift */,
 				DC272CA5246854D600F70481 /* Main.storyboard */,
+				DC6EDDF524688D9200850DF0 /* LabTableViewController.swift */,
 				DC272CA8246854DC00F70481 /* Assets.xcassets */,
 				DC272CAA246854DC00F70481 /* LaunchScreen.storyboard */,
 				DC272CAD246854DC00F70481 /* Info.plist */,
+				DC6EDDF32468817B00850DF0 /* LabTableViewCell.swift */,
+				DC6EDDF924688F1C00850DF0 /* Lab.swift */,
+				DC6EDDFB2468A0D700850DF0 /* LabViewController.swift */,
 			);
 			path = PreprLabs;
 			sourceTree = "<group>";
@@ -184,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC272CAC246854DC00F70481 /* LaunchScreen.storyboard in Resources */,
+				DC272CE12468671200F70481 /* GoogleService-Info.plist in Resources */,
 				DC272CA9246854DC00F70481 /* Assets.xcassets in Resources */,
 				DC272CA7246854D600F70481 /* Main.storyboard in Resources */,
 			);
@@ -203,10 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6EDDFC2468A0D700850DF0 /* LabViewController.swift in Sources */,
 				DC272CA4246854D600F70481 /* SecondViewController.swift in Sources */,
 				DC272CA2246854D600F70481 /* FirstViewController.swift in Sources */,
 				DC272C9E246854D600F70481 /* AppDelegate.swift in Sources */,
 				DC272CA0246854D600F70481 /* SceneDelegate.swift in Sources */,
+				DC6EDDF42468817B00850DF0 /* LabTableViewCell.swift in Sources */,
+				DC6EDDF624688D9200850DF0 /* LabTableViewController.swift in Sources */,
+				DC6EDDFA24688F1C00850DF0 /* Lab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
